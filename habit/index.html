@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+        <title>Document</title>
+        
+    </head>
+    <body>
+        <!-- A habit building app that doesen't have a specified time set, rather focus on achieving the habit regardless of the time. -->
+            <!-- <ul>
+                <li>Do a pushup</li>
+                <li>Clap your hands</li>
+                <li>Jump once</li>
+                <li>Close your eyes and chant your name with profession</li>
+
+
+                <li>walking to the gym</li>
+                <li>listening to a music</li>
+                <li></li> -->
+
+        <div class="container">
+            <div class="card">
+                <ul>
+                    <li class="top"><div class="img"></div><div class="name">Name</div></li>
+                    <li class="head">I am always ready for some workout on daily basis.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <ul>
+                    <li class="top"><div class="name">Resources</div></li>
+                    <li class="head">Better Heading for a test.</li>
+                    <li class="body" id="resource-body">
+                        <div class="resource-input">
+                            <input type="text" name="" id="resource-title" placeholder="title">
+                            <input type="url" name="" id="resource-url" placeholder="url">
+                        </div>
+                    <button id="add-resource">Add Resource</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <ul>
+                    <li class="top"><div class="name">Motivation</div></li>
+                    <li class="head">Creative heading for a test</li>
+                    <li class="body" id="motivation-body">
+                        <div class="motivation-input">
+                            <input type="text" name="" id="motivation-title" placeholder="title">
+                            <input type="url" name="" id="motivation-url" placeholder="url">
+                        </div>
+                        <button id="add-motivation">Add Motivation</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <ul>
+                    <li class="top"><div class="name">Notes</div></li>
+                    <li class="head">Deep meaning for a test</li>
+                    <li class="body">
+                        <div class="notes">
+                            <input type="text" name="" id="note" placeholder="Write about your progress/experience/struggles or any observation made during the task">
+                        </div>
+                        <input id="save-note" type="submit" value="Save Note">
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <ul>
+                    <li class="top"><div class="name">Tasks</div></li>
+                    <li class="head">Enigmatic heading for a test</li>
+                    <li class="body">
+                        <div class="task-list">
+                            <div class="first-ques">
+                            <span>Which ritual did you complete</span>
+                            <select name="" id="first">Which ritual did you complete
+                                <option value="0">Not Done</option>
+                                <option value="1">Wear your track pants</option>
+                                <option value="2">Wear your running shoes</option>
+                            </select>
+                            </div>
+                            <div class="second-ques">
+                            <span>Did you complete the task</span>
+                            <select name="" id="second">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                            </div>
+
+                            <input id="task-submit" type="submit" value="Submit">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <section> Warning if the habits are droppped consecutively for more than 3-4 days with </section>
+        <section>Note at the end of the day</section> -->
+
+        <!-- Data of the user like which time period was the most efficient, what activities before or after the good habit -->
+    </body>
+    </html>
